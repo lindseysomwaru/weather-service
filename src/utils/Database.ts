@@ -1,3 +1,8 @@
+/*
+    Author: Lindsey Somwaru
+    Date Last Edited: 22 Jan 2025
+*/
+
 import { DataSource } from "typeorm";
 import { Weather } from "../models/Weather";
 

@@ -1,3 +1,8 @@
+/*
+    Author: Lindsey Somwaru
+    Date Last Edited: 22 Jan 2025
+*/
+
 import axios from "axios";
 import { WeatherRepository } from "../repositories/WeatherRepository";
 import { Weather } from "../models/Weather";

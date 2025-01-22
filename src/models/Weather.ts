@@ -1,6 +1,11 @@
+/*
+    Author: Lindsey Somwaru
+    Date Last Edited: 22 Jan 2025
+*/
+
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm";
 
-@Entity
+@Entity()
 export class Weather {
     @PrimaryGeneratedColumn()
     id!: number;

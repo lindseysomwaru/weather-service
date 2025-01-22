@@ -1,0 +1,17 @@
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-01-22T20:54:55.619Z"}
+{"level":"info","message":"Database initialized successfully.","timestamp":"2025-01-22T20:54:55.632Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-01-22T20:56:19.040Z"}
+{"level":"info","message":"Database initialized successfully.","timestamp":"2025-01-22T20:56:19.054Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-01-22T20:56:45.014Z"}
+{"level":"info","message":"Database initialized successfully.","timestamp":"2025-01-22T20:56:45.029Z"}
+{"level":"info","message":"Starting scheduled weather data synchronization...","timestamp":"2025-01-22T21:00:00.243Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-22T21:00:00.522Z"}
+{"level":"info","message":"Weather data for New York synchronized successfully.","timestamp":"2025-01-22T21:00:00.522Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-22T21:00:00.543Z"}
+{"level":"info","message":"Weather data for London synchronized successfully.","timestamp":"2025-01-22T21:00:00.543Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-22T21:00:00.561Z"}
+{"level":"info","message":"Weather data for Tokyo synchronized successfully.","timestamp":"2025-01-22T21:00:00.561Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-22T21:00:00.577Z"}
+{"level":"info","message":"Weather data for Mumbai synchronized successfully.","timestamp":"2025-01-22T21:00:00.577Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-22T21:00:00.595Z"}
+{"level":"info","message":"Weather data for Sydney synchronized successfully.","timestamp":"2025-01-22T21:00:00.595Z"}

@@ -1,3 +1,8 @@
+/*
+    Author: Lindsey Somwaru
+    Date Last Edited: 22 Jan 2025
+*/
+
 import winston from "winston";
 
 export const Logger = winston.createLogger({
