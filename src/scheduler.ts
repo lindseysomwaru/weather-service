@@ -1,3 +1,8 @@
+/*
+    Author: Lindsey Somwaru
+    Date Last Edited: 24 Jan 2025
+*/
+
 import cron from "node-cron";
 import { Logger } from "./utils/Logger";
 import { WeatherService } from "./services/WeatherService";
