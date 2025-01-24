@@ -9,6 +9,7 @@ import { AppDataSource } from "./utils/Database";
 import { Logger } from "./utils/Logger";
 import { WeatherService } from "./services/WeatherService";
 import { WeatherRepository } from "./repositories/WeatherRepository";
+import { ConfigManager } from "./utils/ConfigManager";
 import cron from "node-cron";
 
 // Load environment variables
@@ -17,7 +18,7 @@ dotenv.config();
 
 const app = express();
 const PORT = process.env.PORT || 3000;
-const API_KEY = process.env.OPENWEATHER_API_KEY || "";
+const API_KEY = ConfigManager.get("OPENWEATHER_API_KEY");
 
 // Initialize the database
 AppDataSource.initialize()
