@@ -598,3 +598,37 @@
 {"level":"info","message":"Received termination signal. Cleaning up...","timestamp":"2025-01-24T20:47:02.574Z"}
 {"level":"info","message":"Weather table cleared and primary key reset.","timestamp":"2025-01-24T20:47:02.577Z"}
 {"level":"info","message":"Database connection closed.","timestamp":"2025-01-24T20:47:02.577Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-01-24T22:42:43.541Z"}
+{"level":"info","message":"Database initialized successfully.","timestamp":"2025-01-24T22:42:43.555Z"}
+{"level":"info","message":"Scheduler started: Weather data will be synchronized every 15 minutes.","timestamp":"2025-01-24T22:42:43.557Z"}
+{"level":"info","message":"Received termination signal. Cleaning up...","timestamp":"2025-01-24T22:43:03.787Z"}
+{"level":"info","message":"Weather table cleared and primary key reset.","timestamp":"2025-01-24T22:43:03.793Z"}
+{"level":"info","message":"Database connection closed.","timestamp":"2025-01-24T22:43:03.794Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-01-24T22:43:37.185Z"}
+{"level":"info","message":"Database initialized successfully.","timestamp":"2025-01-24T22:43:37.198Z"}
+{"level":"info","message":"Scheduler started: Weather data will be synchronized every 15 minutes.","timestamp":"2025-01-24T22:43:37.200Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-24T22:43:45.215Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-24T22:43:45.461Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-24T22:43:45.462Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-24T22:43:45.478Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-24T22:43:45.478Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-24T22:43:45.494Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-24T22:43:45.495Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-24T22:43:45.509Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-24T22:43:45.510Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-24T22:43:45.529Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-24T22:43:45.529Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-24T22:44:00.283Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-24T22:44:00.348Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-24T22:44:00.348Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-24T22:44:00.365Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-24T22:44:00.366Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-24T22:44:00.382Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-24T22:44:00.382Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-24T22:44:00.401Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-24T22:44:00.401Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-24T22:44:00.418Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-24T22:44:00.418Z"}
+{"level":"info","message":"Received termination signal. Cleaning up...","timestamp":"2025-01-24T22:44:09.467Z"}
+{"level":"info","message":"Weather table cleared and primary key reset.","timestamp":"2025-01-24T22:44:09.472Z"}
+{"level":"info","message":"Database connection closed.","timestamp":"2025-01-24T22:44:09.473Z"}

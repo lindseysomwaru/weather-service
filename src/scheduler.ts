@@ -12,7 +12,7 @@ const cities = ["New York", "London", "Tokyo", "Mumbai", "Sydney"];
 
 // Schedule periodic weather data synchronization
 export const startScheduler = () => {
-  cron.schedule("*/15 * * * *", async () => {
+  cron.schedule("*/15 * * * * *", async () => {
     Logger.info("Cron job triggered: Synchronizing weather data...");
     for (const city of cities) {
       try {
