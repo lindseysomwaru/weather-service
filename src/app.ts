@@ -21,7 +21,7 @@ const API_KEY = process.env.OPENWEATHER_API_KEY || "";
 
 // Initialize the database
 AppDataSource.initialize()
-  .then(() => {
+  .then(async () => {
     Logger.info("Database initialized successfully.");
   })
   .catch((error) => {
@@ -35,7 +35,7 @@ const weatherService = new WeatherService(API_KEY, weatherRepository);
 const cities = ["New York", "London", "Tokyo", "Mumbai", "Sydney"];
 
 // Schedule periodic weather data synchronization
-cron.schedule("*/15 * * * *", async () => {
+cron.schedule("*/15 * * * * *", async () => {
   Logger.info("Starting scheduled weather data synchronization...");
   for (const city of cities) {
     try {
@@ -44,6 +44,25 @@ cron.schedule("*/15 * * * *", async () => {
     } catch (error) {
       Logger.error(`Failed to synchronize weather data for ${city}: ${error instanceof Error ? error.message : error}`);
     }
+  }
+});
+
+let cleanupCalled = false;
+process.on("SIGINT", async () => {
+  if(cleanupCalled) return;
+  cleanupCalled = true;
+  Logger.info("Received termination signal. Cleaning up...");
+
+  try {
+    // Clear and reset the weather table
+    await weatherRepository.clearWeatherData();
+  } catch (error) {
+    Logger.error(`Failed to reset weather table on exit: ${error instanceof Error ? error.message : error}`);
+  } finally {
+    // Close the database connection
+    await AppDataSource.destroy();
+    Logger.info("Database connection closed.");
+    process.exit(0);
   }
 });
 
