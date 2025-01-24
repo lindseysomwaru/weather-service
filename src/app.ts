@@ -7,10 +7,9 @@ import "reflect-metadata";
 import express from "express";
 import { AppDataSource } from "./utils/Database";
 import { Logger } from "./utils/Logger";
-import { WeatherService } from "./services/WeatherService";
-import { WeatherRepository } from "./repositories/WeatherRepository";
+import { startScheduler } from "./scheduler";
 import { ConfigManager } from "./utils/ConfigManager";
-import cron from "node-cron";
+import { WeatherRepository } from "./repositories/WeatherRepository";
 
 // Load environment variables
 import * as dotenv from "dotenv";
@@ -24,29 +23,14 @@ const API_KEY = ConfigManager.get("OPENWEATHER_API_KEY");
 AppDataSource.initialize()
   .then(async () => {
     Logger.info("Database initialized successfully.");
+    startScheduler();
   })
   .catch((error) => {
     Logger.error(`Database initialization failed: ${error.message}`);
     process.exit(1);
   });
 
-// Weather service setup
 const weatherRepository = new WeatherRepository();
-const weatherService = new WeatherService(API_KEY, weatherRepository);
-const cities = ["New York", "London", "Tokyo", "Mumbai", "Sydney"];
-
-// Schedule periodic weather data synchronization
-cron.schedule("*/15 * * * * *", async () => {
-  Logger.info("Starting scheduled weather data synchronization...");
-  for (const city of cities) {
-    try {
-      await weatherService.fetchWeather(city);
-      Logger.info(`Weather data for ${city} synchronized successfully.`);
-    } catch (error) {
-      Logger.error(`Failed to synchronize weather data for ${city}: ${error instanceof Error ? error.message : error}`);
-    }
-  }
-});
 
 let cleanupCalled = false;
 process.on("SIGINT", async () => {
