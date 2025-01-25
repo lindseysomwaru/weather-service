@@ -29,5 +29,5 @@ export const startScheduler = () => {
     }
   });
 
-  Logger.info("Scheduler started: Weather data will be synchronized every 15 minutes.");
+  Logger.info("Scheduler started: Weather data will be synchronized every 15 seconds.");
 };
