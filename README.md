@@ -89,7 +89,7 @@ weather-service/
 - **ConfigManager**: Centralized configuration management for environment variables.
 
 ## Testing:
-1. Run unit tests
+1. Run unit tests:
     ```bash
     npm test
     ```
