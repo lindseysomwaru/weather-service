@@ -53,7 +53,7 @@ This is a backend service that collects, stores, and synchronizes weather data f
     ```
 
 6. Access the API:
-    - Navigate to `http://localhost:3000`
+   - Navigate to `http://localhost:3000`
 
 ## How It Works
 1. **Initialization**: The database is initialized when the application starts.
