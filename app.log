@@ -632,3 +632,154 @@
 {"level":"info","message":"Received termination signal. Cleaning up...","timestamp":"2025-01-24T22:44:09.467Z"}
 {"level":"info","message":"Weather table cleared and primary key reset.","timestamp":"2025-01-24T22:44:09.472Z"}
 {"level":"info","message":"Database connection closed.","timestamp":"2025-01-24T22:44:09.473Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-01-25T01:15:28.040Z"}
+{"level":"info","message":"Database initialized successfully.","timestamp":"2025-01-25T01:15:28.055Z"}
+{"level":"info","message":"Scheduler started: Weather data will be synchronized every 15 minutes.","timestamp":"2025-01-25T01:15:28.058Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-25T01:15:30.061Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-25T01:15:30.206Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-25T01:15:30.206Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:15:30.223Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-25T01:15:30.223Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-25T01:15:30.242Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-25T01:15:30.242Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-25T01:15:30.262Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-25T01:15:30.262Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-25T01:15:30.285Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-25T01:15:30.286Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-25T01:15:45.118Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-25T01:15:45.185Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-25T01:15:45.185Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:15:45.204Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-25T01:15:45.204Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-25T01:15:45.219Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-25T01:15:45.219Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-25T01:15:45.247Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-25T01:15:45.248Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-25T01:15:45.266Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-25T01:15:45.266Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-25T01:16:00.144Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-25T01:16:00.224Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-25T01:16:00.224Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:16:00.242Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-25T01:16:00.242Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-25T01:16:00.258Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-25T01:16:00.258Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-25T01:16:00.274Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-25T01:16:00.274Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-25T01:16:00.290Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-25T01:16:00.290Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-25T01:16:15.174Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-25T01:16:15.235Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-25T01:16:15.236Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:16:15.263Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-25T01:16:15.263Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-25T01:16:15.280Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-25T01:16:15.280Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-25T01:16:15.298Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-25T01:16:15.299Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-25T01:16:15.318Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-25T01:16:15.318Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-25T01:16:30.200Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-25T01:16:30.263Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-25T01:16:30.263Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:16:30.280Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-25T01:16:30.280Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-25T01:16:30.297Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-25T01:16:30.298Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-25T01:16:30.336Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-25T01:16:30.336Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-25T01:16:30.354Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-25T01:16:30.354Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-25T01:17:00.130Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-25T01:17:00.235Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-25T01:17:00.235Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:17:00.249Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-25T01:17:00.249Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-25T01:17:00.265Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-25T01:17:00.265Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-25T01:17:00.292Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-25T01:17:00.293Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-25T01:17:00.310Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-25T01:17:00.310Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-25T01:17:15.184Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-25T01:17:15.252Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-25T01:17:15.252Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:17:15.271Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-25T01:17:15.271Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-25T01:17:15.289Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-25T01:17:15.290Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-25T01:17:15.309Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-25T01:17:15.309Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-25T01:17:15.327Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-25T01:17:15.327Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-25T01:17:30.212Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-25T01:17:30.274Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-25T01:17:30.275Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:17:30.295Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-25T01:17:30.296Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-25T01:17:30.314Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-25T01:17:30.314Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-25T01:17:30.332Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-25T01:17:30.332Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-25T01:17:30.352Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-25T01:17:30.352Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-25T01:17:45.233Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-25T01:17:45.292Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-25T01:17:45.292Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:17:45.308Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-25T01:17:45.308Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-25T01:17:45.325Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-25T01:17:45.325Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-25T01:17:45.341Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-25T01:17:45.341Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-25T01:17:45.357Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-25T01:17:45.357Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-25T01:18:00.255Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-25T01:18:00.325Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-25T01:18:00.325Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:18:00.347Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-25T01:18:00.347Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-25T01:18:00.371Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-25T01:18:00.371Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-25T01:18:00.389Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-25T01:18:00.389Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-25T01:18:00.405Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-25T01:18:00.405Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-25T01:18:15.280Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-25T01:18:15.338Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-25T01:18:15.339Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:18:15.356Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-25T01:18:15.356Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-25T01:18:15.370Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-25T01:18:15.370Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-25T01:18:15.385Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-25T01:18:15.385Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-25T01:18:15.399Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-25T01:18:15.399Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-25T01:18:30.302Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-25T01:18:30.373Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-25T01:18:30.374Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:18:30.392Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-25T01:18:30.392Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-25T01:18:30.408Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-25T01:18:30.408Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-25T01:18:30.423Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-25T01:18:30.423Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-25T01:18:30.440Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-25T01:18:30.440Z"}
+{"level":"info","message":"Cron job triggered: Synchronizing weather data...","timestamp":"2025-01-25T01:18:45.327Z"}
+{"level":"info","message":"Weather data for New York saved successfully.","timestamp":"2025-01-25T01:18:45.403Z"}
+{"level":"info","message":"Weather data synchronized for New York","timestamp":"2025-01-25T01:18:45.403Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:18:45.421Z"}
+{"level":"info","message":"Weather data synchronized for London","timestamp":"2025-01-25T01:18:45.421Z"}
+{"level":"info","message":"Weather data for Tokyo saved successfully.","timestamp":"2025-01-25T01:18:45.435Z"}
+{"level":"info","message":"Weather data synchronized for Tokyo","timestamp":"2025-01-25T01:18:45.435Z"}
+{"level":"info","message":"Weather data for Mumbai saved successfully.","timestamp":"2025-01-25T01:18:45.450Z"}
+{"level":"info","message":"Weather data synchronized for Mumbai","timestamp":"2025-01-25T01:18:45.450Z"}
+{"level":"info","message":"Weather data for Sydney saved successfully.","timestamp":"2025-01-25T01:18:45.465Z"}
+{"level":"info","message":"Weather data synchronized for Sydney","timestamp":"2025-01-25T01:18:45.465Z"}
+{"level":"info","message":"Received termination signal. Cleaning up...","timestamp":"2025-01-25T01:18:47.627Z"}
+{"level":"info","message":"Weather table cleared and primary key reset.","timestamp":"2025-01-25T01:18:47.631Z"}
+{"level":"info","message":"Database connection closed.","timestamp":"2025-01-25T01:18:47.632Z"}
+{"level":"info","message":"Weather data for London saved successfully.","timestamp":"2025-01-25T01:27:34.596Z"}
+{"level":"error","message":"Error fetching weather data for London: API Error","timestamp":"2025-01-25T01:27:34.599Z"}
