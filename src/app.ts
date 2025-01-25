@@ -51,6 +51,18 @@ process.on("SIGINT", async () => {
   }
 });
 
+// GET endpoint to fetch weather data
+app.get("/", async (req, res) => {
+  try {
+    const weatherData = await weatherRepository.findAll();
+    res.json(weatherData);
+  } catch (error) {
+    Logger.error(`Error fetching weather data: ${error instanceof Error ? error.message : error}`);
+    res.status(500).json({ error: "Failed to fetch weather data." });
+  }
+});
+
+
 // Start the Express server
 app.listen(PORT, () => {
   Logger.info(`Server is running on http://localhost:${PORT}`);
