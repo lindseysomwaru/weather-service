@@ -23,6 +23,8 @@ const API_KEY = ConfigManager.get("OPENWEATHER_API_KEY");
 AppDataSource.initialize()
   .then(async () => {
     Logger.info("Database initialized successfully.");
+    const weatherRepository = new WeatherRepository();
+    await weatherRepository.clearWeatherData();
     startScheduler();
   })
   .catch((error) => {
@@ -31,25 +33,6 @@ AppDataSource.initialize()
   });
 
 const weatherRepository = new WeatherRepository();
-
-let cleanupCalled = false;
-process.on("SIGINT", async () => {
-  if(cleanupCalled) return;
-  cleanupCalled = true;
-  Logger.info("Received termination signal. Cleaning up...");
-
-  try {
-    // Clear and reset the weather table
-    await weatherRepository.clearWeatherData();
-  } catch (error) {
-    Logger.error(`Failed to reset weather table on exit: ${error instanceof Error ? error.message : error}`);
-  } finally {
-    // Close the database connection
-    await AppDataSource.destroy();
-    Logger.info("Database connection closed.");
-    process.exit(0);
-  }
-});
 
 // GET endpoint to fetch weather data
 app.get("/", async (req, res) => {

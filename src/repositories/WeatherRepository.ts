@@ -1,11 +1,12 @@
 /*
     Author: Lindsey Somwaru
-    Date Last Edited: 24 Jan 2025
+    Date Last Edited: 28 Jan 2025
 */
 
 import { AppDataSource } from "../utils/Database";
 import { Weather } from "../models/Weather";
 import { Logger } from "../utils/Logger";
+import { ConfigManager } from "../utils/ConfigManager";
 
 export class WeatherRepository {
   async save(weather: Weather): Promise<void> {
